@@ -22,7 +22,7 @@ const TopHeader = () => {
     return (
         <>
             <div className="w-full py-1 bg-slate-50 dark:bg-slate-800">
-                <ConstantWideLayout className="px-2 md:px-4 lg:px-8">
+                <div className="px-4 md:px-6 lg:px-8">
 
                     <div className="my-container">
                         <div className="relative w-full flex md:justify-between md:items-center flex-col justify-start md:flex-row">
@@ -60,7 +60,7 @@ const TopHeader = () => {
                             </div>
                         </div>
                     </div>
-                </ConstantWideLayout>
+                </div>
             </div>
         </>
     );

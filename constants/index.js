@@ -15,14 +15,15 @@ const AppNavLinks = [
     {
         'name': 'Contact Us',
         'href': '/contact'
-    }, {
-        'name': 'Register',
-        'href': '/register'
     },
-    {
-        'name': 'Login',
-        'href': '/login'
-    },
+    // {
+    //     'name': 'Register',
+    //     'href': '/register'
+    // },
+    // {
+    //     'name': 'Login',
+    //     'href': '/login'
+    // },
     {
         'name': 'Sitemap',
         'href': '/sitemap'

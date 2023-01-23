@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <div className='w-full'>
 
-        <ConstantWideLayout className="px-2 md:px-4 lg:px-8">
+        <ConstantWideLayout className="px-4 md:px-6 lg:px-8">
 
 
           {/* divider */}
@@ -22,8 +22,8 @@ const Footer = () => {
                 <div>
 
                   <div className=" md:flex md:items-center md:justify-between mx-auto ">
-                    <span className="flex text-sm text-slate-500 dark:text-slate-300 sm:text-center">  <span className='px-2'>&copy; {new Date().getFullYear()}{" "}</span>
-                      <Link href="/"><Brand /></Link>. All Rights Reserved.
+                    <span className="flex text-sm gap-2 text-slate-500 dark:text-slate-300 sm:text-center">  <span className=''>&copy; {new Date().getFullYear()}{" "}</span>
+                      <Link href="/"><Brand /></Link> All Rights Reserved.
                     </span>
                     <div className="flex mt-4 space-x-2 sm:justify-center md:mt-0">
                       {<SocialIcons />}

@@ -99,8 +99,8 @@ const Navigation = () => {
 
   return (
     <>
-      <div className="w-full shadow">
-        <ConstantWideLayout className="px-2 md:px-4 lg:px-8">
+      <div className="w-full shadow dark:border-b dark:border-gray-700">
+        <div className="px-4 md:px-6 lg:px-8">
           <div className="my-container mx-auto">
             <div className="flex justify-between">
               {/* left side */}
@@ -198,7 +198,7 @@ const Navigation = () => {
               </div>
             </div>
           </div>
-        </ConstantWideLayout>
+        </div>
       </div>
     </>
   );
